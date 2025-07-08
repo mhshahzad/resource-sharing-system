@@ -10,8 +10,6 @@ This project provides a RESTful API to:
 - Query which resources a user can access
 - Get aggregated counts for users and resources
 
-All data is loaded from JSON files for easy prototyping and testing.
-
 ## Getting Started
 
 ### Prerequisites
