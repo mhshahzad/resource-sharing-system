@@ -62,7 +62,3 @@ npm test
 - `data/` — Example data (JSON files)
 - `tests/` — API tests
 - `app.ts` — Main app entry point
-
-## License
-
-MIT
