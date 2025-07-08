@@ -22,16 +22,19 @@ A simple Node.js/Express API for managing resources, users, groups, and access r
 npm install
 ```
 
-### Run
+## Scripts
 
-```bash
-npm start
+- **`npm run build`**: Compile TypeScript source files into JavaScript in the `dist/` directory.
+- **`npm run serve`**: Run the app directly using `ts-node` (without building), useful for development.
+- **`npm start`**: Run the compiled app from the `dist/` directory.
+- **`npm test`**: Run the test suite.
+
+## API Endpoints
+
+### Get all resources with user count
+
 ```
-
-### Run Tests
-
-```bash
-npm test
+GET /resources/with-user-count
 ```
 
 Returns all resources, each with a `userCount` property.
@@ -62,9 +65,16 @@ Returns a list of resource IDs accessible by the user.
 
 ## Project Structure
 
-- `src/api/route/` - Express route handlers
-- `src/database/` - Data access logic
+- `src/api/route/` - API route handlers
+- `src/api/utils/` - API utility functions
+- `src/database/` - Data access logic (reads from JSON files)
+- `src/cache/` - Caching logic
+- `src/schema/` - Type definitions and schemas
 - `data/` - Example data (JSON files)
+- `tests/` - API tests
+- `app.ts` - Main app entry point
+
+> The codebase is modular: API logic is separated from data access and caching. All data is loaded from JSON files for simplicity.
 
 ## Testing
 
