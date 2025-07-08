@@ -1,0 +1,40 @@
+[
+  {
+    "id": "r1",
+    "resourceId": "101",
+    "userId": ["1"],
+    "permissions": ["read", "write"]
+  },
+  {
+    "id": "r2",
+    "resourceId": "102",
+    "groupId": ["g2"],
+    "permissions": ["read", "write"]
+  },
+  {
+    "id": "r3",
+    "resourceId": "103",
+    "everyId": true,
+    "permissions": ["read", "write", "admin"]
+  },
+  {
+    "id": "r4",
+    "resourceId": "999",
+    "userId": ["2"],
+    "permissions": ["read"]
+  },
+  {
+    "id": "r5",
+    "resourceId": "104",
+    "userId": ["3"],
+    "permissions": []
+  },
+  {
+    "id": "r6",
+    "resourceId": "105",
+    "userId": ["4"],
+    "groupId": ["g1"],
+    "permissions": ["read"]
+  }
+]
+

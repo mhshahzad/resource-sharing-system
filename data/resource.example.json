@@ -1,0 +1,38 @@
+[
+  {
+    "id": "101",
+    "name": "Resource A",
+    "type": "file",
+    "metadata": {}
+  },
+  {
+    "id": "102",
+    "name": "Resource B",
+    "type": "folder",
+    "metadata": {}
+  },
+  {
+    "id": "103",
+    "name": "Resource C",
+    "type": "folder",
+    "metadata": {}
+  },
+  {
+    "id": "104",
+    "name": "Resource D",
+    "type": "sub-folder",
+    "metadata": {}
+  },
+  {
+    "id": "105",
+    "name": "Resource A",
+    "type": "archive",
+    "metadata": null
+  },
+  {
+    "id": "106",
+    "name": "Resource E",
+    "type": "special",
+    "metadata": {"custom": true}
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "g1",
+    "name": "Admins",
+    "userIds": ["1"]
+  },
+  {
+    "id": "g2",
+    "name": "Editors",
+    "userIds": ["1", "2"]
+  },
+  {
+    "id": "g3",
+    "name": "EmptyGroup",
+    "userIds": []
+  },
+  {
+    "id": "g4",
+    "name": "Other",
+    "userIds": ["999"]
+  },
+  {
+    "id": "g5",
+    "name": "AllUsers",
+    "userIds": ["1", "2", "3", "4", "5"]
+  }
+]
